@@ -20,5 +20,6 @@ Corona Tracker is a simple website track the infected,Recovered and Deaths cause
 * countUp.js
 ## 📷 Screen Shots
 ![1](ss/1.PNG)
+___
 ![2](ss/2.PNG)
 
