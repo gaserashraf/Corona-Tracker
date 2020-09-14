@@ -1,0 +1,89 @@
+
+body
+{
+    background-color: rgb(228, 232, 233);
+}
+.rounded
+{
+    box-shadow: 5px 5px 5px #afaeae ;
+    border-bottom:5px solid rgb(0,0,255,.5);
+}
+.b
+{
+    border-bottom:15px solid rgb(0,0,255,.5);
+}
+.g
+{
+    border-bottom:15px solid rgb(0,255,0,.5);
+}
+.r
+{
+    border-bottom:15px solid rgb(255,0,0,.5);
+}
+.text-l
+{
+    color:rgb(133, 133, 133);
+}
+.num
+{
+    color:black;
+    font-size:25px;
+}
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: center no-repeat #fff;
+    
+}
+.icon
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: url("../c.png") center no-repeat;
+    animation: rotation 2s infinite linear;
+    z-index: 99999;
+    
+}
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+/*computer*/
+@media (min-width: 1000px) {
+    .container {
+        width: 75%;
+        height: 70%;
+    }
+    .sec
+    {
+        width: 50%;
+    }
+}
+
+/* for mob*/
+@media (max-width: 1000px) {
+    .container {
+        width: 100%;
+
+    }
+    .sec
+    {
+        width: 100%;
+    }
+}
