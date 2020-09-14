@@ -14,11 +14,11 @@
 
 # Corona Tracker
 Corona Tracker is a simple website track the infected,Recovered and Deaths causes using api
-## ?? Build with
+## 💻 Build with
 * vanilla javascript fetch api
 * chart.js
 * countUp.js
-## ?? Screen Shots
+## 📷 Screen Shots
 ![1](ss/1.PNG)
 ![2](ss/2.PNG)
 
